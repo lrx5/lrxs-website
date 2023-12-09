@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../Projects.css';
-import karzhynThumbnail from '../src/assets/karzhyn_t.png';
+import karzhynThumbnail from '/vite.svg';
 
 interface Project {
   id: number;
