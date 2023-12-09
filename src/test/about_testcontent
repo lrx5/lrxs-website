@@ -1,0 +1,4 @@
+        <p className='cv-title mt-40 hidden'>Diplomat</p>
+        <p className='hidden'>My role is a diplomat, I like to keep peace and harmony with all people. Everything will be fine as long as you don't overstep my boundaries.</p>
+        <p className='cv-title mt-40 hidden'>Constant Improvement</p>
+        <p className='hidden'>My quest to make myself better than yesterday will continue until the end of time.</p>
