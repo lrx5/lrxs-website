@@ -28,21 +28,21 @@ ReactDOM.render(
       <ScrollToTop />
       <Nav />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/karzhyn-website" element={<KarzhynWebsite />} />
-        <Route path="/friends-list-website" element={<FriendsList />} />
-        <Route path="/create-with-clint-double-memory" element={<Memory />} />
-        <Route path="/caster-wheel" element={<Caster />} />
-        <Route path="/salad-kitchen" element={<Salad />} />
-        <Route path="/king-tiger" element={<KingTiger />} />
-        <Route path="/start-up-themed-backgrounds" element={<StartUp />} />
-        <Route path="/cafeight" element={<CafEight />} />
-        <Route path="/mystery-word" element={<MysteryWord />} />
-        <Route path="/rx7-fd" element={<Rx7 />} />
-        <Route path="/ingen" element={<Ingen />} />
-        <Route path="/:NoProject" element={<NoProject />} />
+        <Route path="/lrxs-website/" element={<HomePage />} />
+        <Route path="/lrxs-website/about" element={<About />} />
+        <Route path="/lrxs-website/contact" element={<Contact />} />
+        <Route path="/lrxs-website/karzhyn-website" element={<KarzhynWebsite />} />
+        <Route path="/lrxs-website/friends-list-website" element={<FriendsList />} />
+        <Route path="/lrxs-website/create-with-clint-double-memory" element={<Memory />} />
+        <Route path="/lrxs-website/caster-wheel" element={<Caster />} />
+        <Route path="/lrxs-website/salad-kitchen" element={<Salad />} />
+        <Route path="/lrxs-website/king-tiger" element={<KingTiger />} />
+        <Route path="/lrxs-website/start-up-themed-backgrounds" element={<StartUp />} />
+        <Route path="/lrxs-website/cafeight" element={<CafEight />} />
+        <Route path="/lrxs-website/mystery-word" element={<MysteryWord />} />
+        <Route path="/lrxs-website/rx7-fd" element={<Rx7 />} />
+        <Route path="/lrxs-website/ingen" element={<Ingen />} />
+        <Route path="/lrxs-website/:NoProject" element={<NoProject />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

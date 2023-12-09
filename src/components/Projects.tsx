@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
         <Link key={project.id} to={`/${project.file}`}>
           <div className="project-card" style={{ animationDelay: `${index * 0.2}s` }}>
             <div>
-              <img src={`src/assets/${project.img}`} alt="" />
+              <img src={`./assets/${project.img}`} alt="" />
             </div>
             <div>
               <h3>{project.title}</h3>
