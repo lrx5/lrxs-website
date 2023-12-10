@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import ingen_T from '/assets/ingen_t.png'
 import '../Projects.css';
 
 interface Project {
@@ -22,7 +23,7 @@ const Projects: React.FC = () => {
     { id: 4, file: 'mystery-word', title: 'Mystery Word: Five Letters', description: 'Unity', img: 'mw_t.jpg' },
     { id: 3, file: 'cafeight', title: 'CafEight', description: 'Blender', img: 'cafeight_t.png' },
     { id: 2, file: 'rx7-fd', title: 'RX-7 Model', description: 'Blender', img: 'rx7_t.png' },
-    { id: 1, file: 'ingen', title: 'Ingen', description: 'Blender', img: 'ingen_t.png' },
+    { id: 1, file: 'ingen', title: 'Ingen', description: 'Blender', img: ingen_T },
     // Add more projects as needed
   ];
 
@@ -32,7 +33,7 @@ const Projects: React.FC = () => {
         <Link key={project.id} to={`/lrxs-website/${project.file}`}>
           <div className="project-card" style={{ animationDelay: `${index * 0.2}s` }}>
             <div>
-              <img src={new URL(`./assets/${project.img}`, import.meta.url).href} alt="" />
+              <img src={project.img} />
             </div>
             <div>
               <h3>{project.title}</h3>
