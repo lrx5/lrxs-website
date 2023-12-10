@@ -1,5 +1,12 @@
 import { Link } from 'react-router-dom';
 import FooterLinks from './FooterLinks';
+import karzhyn_1 from '/assets/karzhyn/karzhyn_1.png';
+import karzhyn_2 from '/assets/karzhyn/karzhyn_2.png';
+import karzhyn_3 from '/assets/karzhyn/karzhyn_3.png';
+import karzhyn_4 from '/assets/karzhyn/karzhyn_11.png';
+import karzhyn_5 from '/assets/karzhyn/karzhyn_12.png';
+import karzhyn_6 from '/assets/karzhyn/karzhyn_21.png';
+import karzhyn_7 from '/assets/karzhyn/karzhyn_24.png';
 import '../ProjectsBlog.css';
 import '../Projects.css';
 
@@ -19,19 +26,19 @@ function KarzhynWebsite() {
         <div>
           <h2>Karzhyn Branding</h2>
           <p>Karzhyn's brand features multiple bright colors that represents the business' nature for creativity and flexibility. The vibe just looks bright and fun and I just had to make something out of it.</p>
-          <img src={`src/assets/karzhyn_1.png`} alt="" />
-          <img src={`src/assets/karzhyn_2.png`} alt="" />
-          <img src={`src/assets/karzhyn_3.png`} alt="" />
+          <img src={karzhyn_1} alt="" />
+          <img src={karzhyn_2} alt="" />
+          <img src={karzhyn_3} alt="" />
         </div>
         <div>
           <h2>Pages Preview</h2>
           <p>There are a total of 7 pages, including the confirmation of sending the email form. </p>
-          <img src={`src/assets/karzhyn_11.png`} alt="" />
+          <img src={karzhyn_4} alt="" />
           <p>Here's a couple of screenshots 📸
             when viewing the actual website.</p>
-          <img src={`src/assets/karzhyn_12.png`} alt="" />
-          <img src={`src/assets/karzhyn_21.png`} alt="" />
-          <img src={`src/assets/karzhyn_24.png`} alt="" />
+          <img src={karzhyn_5} alt="" />
+          <img src={karzhyn_6} alt="" />
+          <img src={karzhyn_7} alt="" />
         </div>
         <div>
           <h2>3D Animations</h2>
