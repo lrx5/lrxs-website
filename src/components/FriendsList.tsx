@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import FooterLinks from './FooterLinks';
+import friendslist_1 from '/assets/friendslist/friendslist_2.png';
 import '../ProjectsBlog.css';
 
 function FriendsList() {
@@ -16,7 +17,7 @@ function FriendsList() {
         <div>
           <h2>Backstory</h2>
           <p>My love for Stardew Valley has been reborn after my fsriend decided to play with me for a couple of days. <i>Well technically, I gifted the game and was kinda forced to play with me.</i> 😅 But anyways, I have played this game before, and can say that I am pretty experienced when it comes to farming and forging bonds with the villagers.</p>
-          <img src={`src/assets/friendslist/friendslist_2.png`} alt="" />
+          <img src={friendslist_1} alt="" />
         </div>
         <div>
           <h2>Game Heart Meters</h2>
